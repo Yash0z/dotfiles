@@ -1,0 +1,49 @@
+window {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: rgba(5, 0, 20, 0.6);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23%;
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    color: #ced7f4;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 0px;
+    background-color: rgba(5, 0, 20, 0);
+    margin: 0px;
+}
+
+button:hover {
+    background-color: rgba(173, 182, 224, 0.1);
+}
+
+#lock {
+    background-image: image(url("/home/icy/.config/wlogout/assets/lock.svg"));
+}
+
+#logout {
+    background-image: image(url("/home/icy/.config/wlogout/assets/logout.svg"));
+}
+
+#hibernate {
+    background-image: image(
+        url("/home/icy/.config/wlogout/assets/hibernate.svg")
+    );
+}
+
+#shutdown {
+    background-image: image(
+        url("/home/icy/.config/wlogout/assets/shutdown.svg")
+    );
+}
+
+#reboot {
+    background-image: image(url("/home/icy/.config/wlogout/assets/reboot.svg"));
+}

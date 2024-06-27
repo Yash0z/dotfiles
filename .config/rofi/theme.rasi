@@ -1,0 +1,8 @@
+* {
+   bg:                 #050014;
+   fg:                 #a8deff;
+   select-bg:          #302f54;
+   select-fg:          #89a9d6;
+   border:             #302f54;
+   text:               #a8deff;
+}

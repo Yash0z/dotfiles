@@ -1,0 +1,11 @@
+[SddmGreeterTheme]
+Name=Kai
+Description=sddm theme
+Author=Shinigami
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=kaisddm
