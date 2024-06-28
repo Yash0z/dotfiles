@@ -9,8 +9,8 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "width": 1950,
-    "margin-top": 0,
+    "width": 1910,
+    "margin-top": 3,
 
 
 // modules on the left side //
