@@ -68,9 +68,8 @@
 
 
 [urgency_low]
-    background = "#050014"
-    foreground = "#a8deff"
-    frame_color = "#302f54"
+    background = "#000000"
+    foreground = "#6f4cfc"
     highlight =  "#cba6f7"
     timeout = 1
 
