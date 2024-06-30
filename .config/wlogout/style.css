@@ -21,7 +21,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(173, 182, 224, 0.1);
+    background-color: rgba(250, 250, 250, 0.1);
 }
 
 #lock {
