@@ -11,10 +11,11 @@
   "outline_panel": {
     "dock": "left"
   },
+  "outline panel": "toggle focus",
   "auto_update": false,
   "format_on_save": "on",
   "autosave": "on_focus_change",
-  "theme": "Pine",
+  "theme": "Napalm Github x VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "ui_font_family": "SpaceMono Nerd Font Mono",
