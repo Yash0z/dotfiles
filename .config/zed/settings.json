@@ -1,34 +1,97 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
-
 {
-  "outline_panel": {
-    "dock": "left"
+  "theme": "kruz",
+  // "experimental.theme_overrides": {
+  //   "players": [
+  //     {
+  //       "selection": "#37447599"
+  //     }
+  //   ]
+  // },
+  "indent_guides": {
+    "enabled": true
   },
-  "outline panel": "toggle focus",
-  "auto_update": false,
-  "format_on_save": "on",
-  "autosave": "on_focus_change",
-  "theme": "Napalm Github x VSCode",
+  "when_closing_with_no_tabs": "keep_window_open",
+  "task": {
+    "show_status_indicator": true
+  },
+  "preview_tabs": {
+    "enabled": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "gutter": {
+    "line_numbers": true,
+    "code_actions": true,
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "ui_font_family": "SpaceMono Nerd Font Mono",
-  "restore_on_startup": "none",
-  "soft_wrap": "editor_width",
+  "buffer_font_family": "Fira Code",
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true
+  },
   "project_panel": {
     "dock": "right"
   },
+  "format_on_save": "on",
+  "formatter": "language_server",
+  "journal": {
+    "path": "~",
+    "hour_format": "hour24"
+  },
   "terminal": {
-    "dock": "left",
-    "font_family": "SpaceMono Nerd Font Mono",
-    "shell": {
-      "program": "fish"
+    "copy_on_select": true,
+    "dock": "right",
+    "default_width": 200,
+    "line_height": "standard"
+  },
+  "language_overrides": {
+    "TypeScript": {
+      "formatter": "prettier"
+    },
+    "Svelte": {
+      "formatter": "prettier"
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": {
+          "command": "clippy"
+        }
+      }
+    },
+    "eslint": {
+      "enabled": true,
+      "autoFixOnSave": true,
+      "autoFixOnFormat": true,
+      "autoFixOnFormatDelay": 200,
+      "initialization_options": {
+        "checkOnSave": {
+          "command": "eslint"
+        }
+      },
+      "probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown",
+        "svelte"
+      ],
+      "validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "svelte"
+      ]
     }
   }
 }
