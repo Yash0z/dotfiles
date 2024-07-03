@@ -1,5 +1,5 @@
 #environment variables
-set -x STARSHIP_CONFIG ~/.config/Starship/starship.toml
+set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
 set -x HYPRSHOT_DIR ~/Pictures/screenshots
 
 

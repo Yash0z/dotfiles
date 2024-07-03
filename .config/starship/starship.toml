@@ -76,7 +76,6 @@ symbol = "󰔷 "
 [nim]
 symbol = "󰆥 "
 
-
 [nix_shell]
 symbol = " "
 
@@ -85,9 +84,6 @@ symbol = " "
 
 [ocaml]
 symbol = " "
-
-[package]
-symbol = "󰏗 "
 
 [os.symbols]
 Alpaquita = " "
@@ -135,7 +131,7 @@ Void = " "
 Windows = "󰍲 "
 
 [package]
-symbol = "󰏗 "
+symbol = " "
 
 [perl]
 symbol = " "
