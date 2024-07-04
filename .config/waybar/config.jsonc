@@ -46,6 +46,7 @@
     "custom/padd",
     "network",
     "bluetooth",
+    "idle_inhibitor",
     "custom/padd",
     "custom/padd",
     "clock#time",
@@ -58,6 +59,14 @@
 // █░▀░█ █▄█ █▄▀ █▄█ █▄▄ ██▄ ▄█
 
 
+"idle_inhibitor": {
+    "format": "{icon}",
+    "rotate": 0,
+    "format-icons": {
+        "activated": "󱑂",
+        "deactivated": "󱑎"
+    }
+},
 
 
 "custom/power": {

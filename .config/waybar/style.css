@@ -49,12 +49,14 @@ tooltip {
     color: @fg;
     transition-duration: 0.5s;
 }
+
 .custom-spotify {
     padding: 0 10px;
     margin: 0 4px;
     color: @fg;
 }
 
+#idle_inhibitor,
 #bluetooth,
 #network {
     color: @fg;
