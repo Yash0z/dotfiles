@@ -1,2 +1,4 @@
 
 *.qml linguist-detectable=false
+*.vert linguist-detectable=false
+*.ctl linguist-detectable=false
