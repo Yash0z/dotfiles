@@ -1,85 +1,85 @@
 @define-color bg #000000;
-@define-color fg #6f4cfc;
+@define-color fg #6f4cfd;
 
 * {
-    border: none;
-    border-radius: 2px;
-    font-family: "JetBrainsMono NF Medium";
-    font-weight: bold;
-    font-size: 14px;
-    min-height: 21px;
+   border: none;
+   border-radius: 2px;
+   font-family: "JetBrainsMono NF Medium";
+   font-weight: bold;
+   font-size: 14px;
+   min-height: 21px;
 }
 
 window#waybar {
-    background: @bg;
-    border-radius: 3px;
-    padding: 0px;
-    margin-top: 0px;
+   background: @bg;
+   border-radius: 3px;
+   padding: 0px;
+   margin-top: 0px;
 }
 
 tooltip {
-    background: @bg;
-    color: @fg;
-    border-radius: 5px;
-    border-width: 0px;
+   background: @bg;
+   color: @fg;
+   border-radius: 5px;
+   border-width: 0px;
 }
 
 #workspaces button {
-    box-shadow: none;
-    text-shadow: none;
-    padding: 0px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 2px;
-    margin-right: 2px;
-    transition-duration: 0.5s;
-    color: @fg;
+   box-shadow: none;
+   text-shadow: none;
+   padding: 0px;
+   margin-top: 1px;
+   margin-bottom: 1px;
+   margin-left: 2px;
+   margin-right: 2px;
+   transition-duration: 0.5s;
+   color: @fg;
 }
 
 #workspaces button:hover {
-    background: none;
+   background: none;
 }
 
 #workspaces button.persistent {
-    color: @fg;
+   color: @fg;
 }
 
 #workspaces button.active {
-    border-bottom: 2px solid;
-    color: @fg;
-    transition-duration: 0.5s;
+   border-bottom: 2px solid;
+   color: @fg;
+   transition-duration: 0.5s;
 }
 
 .custom-spotify {
-    padding: 0 10px;
-    margin: 0 4px;
-    color: @fg;
+   padding: 0 10px;
+   margin: 0 4px;
+   color: @fg;
 }
 
 #idle_inhibitor,
 #bluetooth,
 #network {
-    color: @fg;
-    padding: 0px 8px;
+   color: @fg;
+   padding: 0px 8px;
 }
 
 #cpu,
 #temperature {
-    color: @fg;
-    padding-left: 14px;
-    padding-right: 3px;
+   color: @fg;
+   padding-left: 14px;
+   padding-right: 3px;
 }
 
 #custom-power,
 #clock,
 #pulseaudio,
 #battery {
-    color: @fg;
-    padding: 0px 14px;
+   color: @fg;
+   padding: 0px 14px;
 }
 
 /* custom padding */
 #custom-padd {
-    padding-right: 10px;
-    padding-left: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
 }
