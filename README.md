@@ -1,19 +1,12 @@
-<div style="font-family: JetBrainsMono Nerd Font;">
-<h1 style="color: #9cb8ff" align="left">Kaizen's  .Dotfiles</h1>
+<h1 align="left">Kaizen's  .Dotfiles</h1>
 
 <h2 align="left">About 💡</h2>
  
-<p style="font-family: SpaceMono Nerd Font Mono; font-size: 1.2rem" align="left">My Desktop(Arch Linux + Hyprland) setup I use as my daily driver</p>
+<p style=" font-size: 1.2rem" align="left">My Desktop(Arch Linux + Hyprland) setup I use as my daily driver</p>
 
 ###
 
 <h2 align="left">Previews 📸</h2>
-
-###
-
-<div align="center">
-  <img src="previews/rice1.png"  />
-</div>
 
 ###
 
@@ -24,13 +17,18 @@
 ###
 
 <div align="center">
-  <img src="previews/kai.png"  />
+  <img src="previews/lock.png"  />
 </div>
 
 ###
 
 <div align="center">
   <img src="previews/rice3.png"  />
+</div>
+###
+
+<div align="center">
+  <img src="previews/kai.png"  />
 </div>
 
 ###
@@ -68,7 +66,7 @@
 
 <h2 align="left">Installation</h2>
 
-> [!NOTE]
+> [NOTE]  
 > The install script is still in development and will be added as soon as it is completed.
 
 Install the required packages and then adjust the configuration, referencing my dotfiles. Feel free to incorporate your own customizations as well.
@@ -79,7 +77,4 @@ Also remember to make all the scripts executable by:
 $ chmod +x /path/to/the/scripts
 ```
 
-<h4 style="font-family:SpaceMono Nerd Font" align="left">Thank You!</h4>
-
-
-</div>
+<h4 align="left">Thank You!</h4>
