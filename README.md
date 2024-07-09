@@ -23,8 +23,15 @@
 ###
 
 <div align="center">
+  <img src="previews/wlogout.png"  />
+</div>
+
+###
+
+<div align="center">
   <img src="previews/rice3.png"  />
 </div>
+
 ###
 
 <div align="center">
