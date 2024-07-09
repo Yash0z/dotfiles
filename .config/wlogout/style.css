@@ -16,12 +16,12 @@ button {
     box-shadow: none;
     text-shadow: none;
     border-radius: 0px;
-    background-color: rgba(5, 0, 20, 0);
+    background-color: rgba(62, 50, 99, 0);
     margin: 0px;
 }
 
 button:hover {
-    background-color: rgba(250, 250, 250, 0.1);
+    background-color: rgba(23, 23, 24, 0.466);
 }
 
 #lock {
