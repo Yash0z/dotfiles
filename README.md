@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img src="previews/rice2.png"  />
+  <img src="previews/rice.png"  />
 </div>
 
 ###
