@@ -17,6 +17,12 @@
 ###
 
 <div align="center">
+  <img src="previews/page2.png"  />
+</div>
+
+###
+
+<div align="center">
   <img src="previews/lock.png"  />
 </div>
 
@@ -40,9 +46,6 @@
 
 ###
 
-<div align="center">
-  <img src="previews/rofi.png"  />
-</div>
 
 <h2 align="left">System Info ⚙️</h2>
 
