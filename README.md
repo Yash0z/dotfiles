@@ -55,7 +55,7 @@
    -  [Waybar](https://github.com/Alexays/Waybar)
 -  Web Browser 🕸️
    -  [Firefox-Dev](https://github.com/topics/firefox-developer-edition)
-   -  [Startpage](https://github.com/topics/firefox-developer-edition)
+   -  [Startpage](https://github.com/Yash0z/Start_page)
 -  Terminal 📟
    -  [Kitty](https://sw.kovidgoyal.net/kitty/)
 -  Text Editor 📜
