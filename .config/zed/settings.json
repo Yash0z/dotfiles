@@ -1,5 +1,5 @@
 {
-  "theme": "kruz",
+  "theme": "Carbonfox",
   // "experimental.theme_overrides": {
   //   "players": [
   //     {
@@ -29,8 +29,8 @@
     "code_actions": true,
   },
   "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 14,
+  "buffer_font_family": "SpaceMonoNFM",
   "buffer_font_features": {
     "calt": true,
     "liga": true
