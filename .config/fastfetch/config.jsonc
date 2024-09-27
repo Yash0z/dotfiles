@@ -1,99 +1,97 @@
 {
- "logo": {
-         "type": "kitty",
-         "source": "~/.config/fastfetch/images/kny2.jpg",
-         "width": 32
-     },
-  "display": {
-    "separator": "    "
-  },
-  "modules": [
-        {
-            "type": "custom",
-            "format": "\u001b[36m  死神のコンピューター ",
+	"logo": {
+		"type": "kitty",
+		"source": "~/.config/fastfetch/images/kny3.jpg",
+		"width": 32
+	},
+	"display": {
+		"separator": "    "
+	},
+	"modules": [
+		{
+			"type": "custom",
+			"format": "\u001b[36m  死神のコンピューター "
+		},
+		{
+			"type": "custom",
+			"format": "┌───────────────────────────────────────────┐"
+		},
+		{
+			"type": "os",
+			"key": "   OS ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "kernel",
+			"key": "   Kernel ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "packages",
+			"key": "  Packages ",
+			"keyColor": "blue"
+		},
+		{
+			"type": "display",
+			"key": "  󰍹 Display ",
+			"keyColor": "blue",
+			"textColor": "blue"
+		},
+		{
+			"type": "wm",
+			"key": " 󱄔 WM ",
+			"keyColor": "green"
+		},
+		{
+			"type": "terminal",
+			"key": "   Terminal ",
+			"keyColor": "green"
+		},
+		{
+			"type": "shell",
+			"key": "   Shell ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "custom",
+			"format": "└───────────────────────────────────────────┘"
+		},
+		{
+			"type": "title",
+			"key": "  "
+		},
+		{
+			"type": "custom",
+			"format": "┌───────────────────────────────────────────┐"
+		},
+		{
+			"type": "cpu",
+			"format": "{1}",
+			"key": "   CPU ",
+			"keyColor": "blue"
+		},
+		{
+			"type": "gpu",
+			"format": "{2}",
+			"key": "   GPU ",
+			"keyColor": "blue"
+		},
+		{
+			"type": "gpu",
+			"format": "{3}",
+			"key": "   GPU Driver ",
+			"keyColor": "green"
+		},
+		{
+			"type": "memory",
+			"key": "  󰍛 Memory ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "custom",
+			"format": "└───────────────────────────────────────────┘"
+		},
 
-
-        },
-        {
-            "type": "custom",
-            "format": "┌───────────────────────────────────────────┐"
-        },
-        {
-            "type": "os",
-            "key": "   OS ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "kernel",
-            "key": "   Kernel ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "packages",
-            "key": "  Packages ",
-            "keyColor": "blue"
-        },
-        {
-            "type": "display",
-            "key": "  󰍹 Display ",
-            "keyColor": "blue",
-            "textColor": "blue"
-        },
-        {
-            "type": "wm",
-            "key": " 󱄔 WM ",
-            "keyColor": "green"
-        },
-        {
-            "type": "terminal",
-            "key": "   Terminal ",
-            "keyColor": "green"
-        },
-         {
-            "type": "shell",
-            "key": "   Shell ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "custom",
-            "format": "└───────────────────────────────────────────┘"
-        },
-        {
-            "type": "title",
-            "key": "  "
-        },
-        {
-            "type": "custom",
-            "format": "┌───────────────────────────────────────────┐"
-        },
-        {
-            "type": "cpu",
-            "format": "{1}",
-            "key": "   CPU ",
-            "keyColor": "blue"
-        },
-        {
-            "type": "gpu",
-            "format": "{2}",
-            "key": "   GPU ",
-            "keyColor": "blue"
-        },
-        {
-            "type": "gpu",
-            "format": "{3}",
-            "key": "   GPU Driver ",
-            "keyColor": "green"
-        },
-        {
-            "type": "memory",
-            "key": "  󰍛 Memory ",
-            "keyColor": "magenta"
-        },
-        {
-            "type": "custom",
-            "format": "└───────────────────────────────────────────┘"
-        },
-
-        "break"
-    ]
+		"break"
+	]
 }

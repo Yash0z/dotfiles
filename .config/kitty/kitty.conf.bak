@@ -61,7 +61,7 @@ symbol_map U+21B5,U+25B8,U+2605,U+2630,U+2632,U+2714,U+E0A3,U+E615,U+E62B Symbol
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="SpaceMono Nerd Font Mono"
+font_family      family="Hack Nerd Font"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
