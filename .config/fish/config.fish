@@ -11,3 +11,7 @@ fastfetch
 set -x PATH ~/.local/share/nvm/v22.3.0/bin $PATH
 #Add spicetify  to PATH
 fish_add_path /home/icy/.spicetify
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
