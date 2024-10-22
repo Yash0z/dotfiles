@@ -451,7 +451,7 @@ Column {
 
             contentItem: Text {
                 text: parent.text
-                color: config.OverrideLoginButtonTextColor != "" ? config.OverrideLoginButtonTextColor : root.palette.highlight.hslLightness >= 0.7 ? "#444" : "white"
+                color:  loginButton.enabled || loginButton.activeFocus ? "black" : "white"
                 font.pointSize: root.font.pointSize
                 font.family: root.font.family
                 horizontalAlignment: Text.AlignHCenter
@@ -461,8 +461,8 @@ Column {
 
             background: Rectangle {
                 id: buttonBackground
-                color: "white"
-                opacity: 0.2
+                color: "Black"
+                opacity: 0.3
                 radius: config.RoundCorners || 0
             }
 

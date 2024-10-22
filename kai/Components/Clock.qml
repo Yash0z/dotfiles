@@ -11,7 +11,7 @@ Column {
         anchors.horizontalCenter: parent.horizontalCenter
         font.pointSize: 15
         font.bold: false
-        color: "#000000"
+        color: "white"
         renderType: Text.QtRendering
         text: config.HeaderText
         anchors.top: parent.top
