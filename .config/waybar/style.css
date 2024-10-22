@@ -1,13 +1,13 @@
 @define-color bg rgba(0, 0, 0, 0.6);
-@define-color fg #52ffba;
+@define-color fg #83a2fc;
 
 * {
    border: none;
    border-radius: 2px;
-   font-family: "Hack Nerd Font";
+   font-family: "JetBrainsMono Nerd Font";
    font-weight: bold;
-   font-size: 13px;
-   min-height: 21px;
+   font-size: 14px;
+   min-height: 2px;
 }
 
 window#waybar {
